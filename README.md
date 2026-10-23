@@ -72,3 +72,9 @@ Aplicação web em **React + Vite** para gerenciamento de chamados de manutenç�
    ```
 
 5. Acesse no navegador: `http://localhost:3000` (ou a porta informada pelo Vite).
+
+## Imagens do Site
+
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image.png)
