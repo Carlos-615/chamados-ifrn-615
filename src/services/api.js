@@ -4,7 +4,7 @@ import axios from "axios";
 const api = axios.create({
   baseURL: "https://api-chamados.jefersonqueiroga.com.br",
   headers: {
-    "X-API-Key": import.meta.env.VITE_API_KEY || "_VT4PsX9T0x27QP8JWvrbQ",
+    "X-API-Key": import.meta.env.VITE_API_KEY,
   },
 });
 
