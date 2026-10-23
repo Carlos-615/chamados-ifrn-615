@@ -65,9 +65,13 @@ export function ChamadoDetail() {
           <p><strong>Local:</strong> {chamado.local}</p>
           <p><strong>Aberto em:</strong> {chamado.data_abertura ? chamado.data_abertura.split("-").reverse().join("/") : ""}</p>
           <p><strong>Responsável:</strong> {chamado.responsavel || "Nenhum ainda"}</p>
-          <p><strong>Solução:</strong> {chamado.solucao || "Nenhuma ainda"}</p>
-          {chamado.data_resolucao && (
-            <p><strong>Data de resolução:</strong> {chamado.data_resolucao.split("-").reverse().join("/")}</p>
+          {resolvido && (
+            <>
+              <p><strong>Solução:</strong> {chamado.solucao}</p>
+              {chamado.data_resolucao && (
+                <p><strong>Data de resolução:</strong> {chamado.data_resolucao.split("-").reverse().join("/")}</p>
+              )}
+            </>
           )}
         </div>
 
