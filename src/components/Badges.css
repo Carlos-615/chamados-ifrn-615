@@ -1,0 +1,64 @@
+/* Etiquetas de Status e Prioridade */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  line-height: 1.2;
+}
+
+/* Status: Aberto (Amarelo / Âmbar) */
+.badge-status-aberto {
+  background-color: #fef3c7;
+  color: #92400e;
+  border-color: #fcd34d;
+}
+
+/* Status: Em andamento (Azul) */
+.badge-status-andamento {
+  background-color: #dbeafe;
+  color: #1e40af;
+  border-color: #93c5fd;
+}
+
+/* Status: Resolvido (Verde) */
+.badge-status-resolvido {
+  background-color: #dcfce7;
+  color: #166534;
+  border-color: #86efac;
+}
+
+/* Status padrão */
+.badge-status-padrao {
+  background-color: #f1f5f9;
+  color: #475569;
+  border-color: #cbd5e1;
+}
+
+/* Prioridades */
+.badge-prioridade-alta {
+  background-color: #ffe4e6;
+  color: #9f1239;
+  border-color: #fecdd3;
+}
+
+.badge-prioridade-media {
+  background-color: #ffedd5;
+  color: #9a3412;
+  border-color: #fed7aa;
+}
+
+.badge-prioridade-baixa {
+  background-color: #ccfbf1;
+  color: #115e59;
+  border-color: #99f6e4;
+}
+
+.badge-prioridade-padrao {
+  background-color: #f1f5f9;
+  color: #475569;
+  border-color: #cbd5e1;
+}

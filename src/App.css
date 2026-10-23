@@ -1,0 +1,44 @@
+/* Estilos gerais da estrutura da aplicação */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8fafc;
+  color: #1e293b;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.conteudo-principal {
+  flex: 1;
+  max-width: 1050px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem 1rem;
+}
+
+/* Rodapé */
+.rodape-sistema {
+  margin-top: auto;
+  background-color: #ffffff;
+  border-top: 1px solid #e2e8f0;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  color: #64748b;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.rodape-instituicao {
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 0.25rem;
+}
+
+.rodape-subtitulo {
+  margin-bottom: 0.25rem;
+}
+
+.rodape-api {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
